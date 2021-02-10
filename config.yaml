@@ -1,7 +1,7 @@
-baseURL: https://example.com
+baseURL: https://datarant.netlify.app
 languageCode: en-us
 theme: ramium
-title: Ramium
+title: Data Rant
 disqusShortname: ''
 googleAnalytics: ''
 summaryLength: 40
@@ -10,7 +10,7 @@ enableemoji: no
 params:
   adsense: ''
   description: A description for the meta tag of the site
-  githubProfile: rafed/ramium/
+  githubProfile: data-rant
   googleSearch: ''
   math: no
   paginatePostsPerPage: 5
