@@ -1,0 +1,49 @@
+baseURL: https://example.com
+languageCode: en-us
+theme: ramium
+title: Ramium
+disqusShortname: ''
+googleAnalytics: ''
+summaryLength: 40
+pluralizeListTitles: no
+enableemoji: no
+params:
+  adsense: ''
+  description: A description for the meta tag of the site
+  githubProfile: rafed/ramium/
+  googleSearch: ''
+  math: no
+  paginatePostsPerPage: 5
+  paginateTagsPerPage: 6
+  sectionsInHome: 5
+  showDate: yes
+  tagsInHome: 40
+taxonomies:
+  tag: tags
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - identifier: blog
+      name: This Blog
+      weight: 2
+    - name: All Tags
+      parent: blog
+      url: /tags/
+      weight: 1
+    - name: All Sections
+      parent: blog
+      url: /sections/
+      weight: 2
+    - name: All Posts
+      parent: blog
+      url: /posts/
+      weight: 3
+    - name: Author
+      url: /author/
+      weight: 3
