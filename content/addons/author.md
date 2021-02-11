@@ -8,4 +8,4 @@ type: addons
 url: /author/
 ---
 
-I am John Doe. And I can confirm that this is the best theme ever!
+Eric Lupien holds a Master of Arts in Public and International Affairs from the University of Ottawa. He also holds a Honours in Political Studies and a Minor in Psychology from Bishops' University.
