@@ -9,7 +9,7 @@ pluralizeListTitles: no
 enableemoji: no
 params:
   adsense: ''
-  description: A description for the meta tag of the site
+  description: Something, Something, Data
   githubProfile: data-rant
   googleSearch: ''
   math: no
